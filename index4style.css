@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+.divheader{
+    background-image: url('Screenshot 2020-10-22 at 1.09 1 (1).png');
+    background-position: center;
+    background-size: cover;
+    border-radius:1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem;
+    }
+h1{
+    font-family:'assistant',sans-serif ;
+    color: #fff;
+    margin: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 100%;
+}
+.divbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-grow: 0.2;
+    flex-shrink:0.2;
+    margin: 3rem 0 ;
+}
+button{
+    height: 3rem;
+    background-color: #DB4700;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    border: none;
+    margin: 0 0.5rem;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    margin: 0 0.6rem;
+}
+.item_name{
+    line-height: 9.5px;
+    margin: 0.5rem 0;
+    color: #A7A7A7;
+}
+h3{
+    margin: 0.5rem 0;
+}
+img{
+    height: 10rem;
+    width: 10rem;
+    background-color: #A7A7A7;
+    margin: 1.5rem 0 0;
+}
+span{
+    font-weight: 700;
+}
+.spandec{
+    text-decoration: line-through;
+    margin: 0.5rem 0;
+}
+.spancolor{
+    color: #DB4700;
+    margin: 0.5rem 0;
+}
+.byartist{
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+    font-weight: 600;
+}
+.button-shop{
+    margin: 2rem auto 3rem;
+    width: 9.5rem; 
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Screenshot 2020-10-22 at 1.09 1 (1).png');
+    background-position: center;
+    background-size: cover;
+}
+.bottomtext{
+    font-family: 'assistant',sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 4rem auto 2rem;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+}
+.butfooter{
+    background-color: #fff;
+    color: #DB4700;
+    font-weight: 700;
+    width: 156px;
+    height: 40px;
+    border: solid #DB4700 2px;
+    margin-bottom:3rem ;
+}
+@media only screen and (min-width:370px) {
+    .item7,.item8,.item9,.item10,.item11,.item12{
+        display: none;
+    }
+}
+@media only screen and (min-width:538px) {
+    .item7,.item8,.item9{
+        display: inline-block;
+    }
+}
+@media only screen and (min-width:717px) {
+    section{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .item{
+        flex: 2 2 10%;
+    }
+    .item10,.item11,.item12{
+        display: inline-block;
+    }
+}
+@media only screen and (min-width:1071px) {
+    section{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width:1200px) {
+    section{
+        margin: 0 auto;
+    }
+}
